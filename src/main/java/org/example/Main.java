@@ -1,17 +1,14 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//Schritt 5: Schreiben Sie eine "Main"-Klasse, in der Sie einige Beispiele für die Erstellung von Schülern, Lehrern und Kursen unter Verwendung der Konstruktoren anwenden.
+//Schritt 6: Prüfen Sie in der "Main"-Klasse, ob die generierten Lombok-Methoden korrekt funktionieren (getter, setter, toString, ...).
+//Schritt 1: Fügen Sie das Builder-Muster zu allen Entitäten hinzu und erstellen Sie zusätzliche Objekte mit dem Builder in der Hauptmethode.
+//Schritt 2: Verwenden Sie die With-Annotation, um das Ändern von Eigenschaften zu erleichtern.
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Student students = new Student();
+        System.out.println(students.getName());
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
     }
 }
